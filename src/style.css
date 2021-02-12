@@ -1,0 +1,8 @@
+html {
+  font-size: Arial;
+  background-color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
