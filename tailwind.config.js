@@ -1,8 +1,16 @@
 module.exports = {
   purge: [],
+  darkMode: 'class',
+
   theme: {
     extend: {},
   },
-  variants: {},
+  variants: {
+    extend: {
+      textOpacity: ['dark']
+    }
+  },
   plugins: [],
+
+  
 }
