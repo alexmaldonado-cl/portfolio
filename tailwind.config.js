@@ -7,9 +7,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      textOpacity: ['dark']
+      textOpacity: ['dark'],
+      backgroundColor: ['checked'],
+      borderColor: ['checked'],
     }
   },
+
   plugins: [],
 
   
