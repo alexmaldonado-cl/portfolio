@@ -8,7 +8,7 @@ module.exports = {
   variants: {
     extend: {
       textOpacity: ['dark'],
-      backgroundColor: ['checked'],
+      backgroundColor: ['checked', 'hover'],
       borderColor: ['checked'],
     }
   },

@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 
+@layer utilities {
+  @variants dark {
+    .bg-dark-custom {
+      --tw-bg-opacity: 1;
+      background-color: rgba(18, 26, 33, var(--tw-bg-opacity));
+    }
+  }
+}
+
 .toggle-checkbox {
   /* border-color: rgb(96, 165, 250); */
   /*border-blue-400*/
